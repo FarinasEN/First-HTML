@@ -1,0 +1,65 @@
+<!DOCTYPE html><html>
+<head>
+    <style> *{box-sizing:border-box;}
+
+body {
+font-family: Arial; padding: 10px; background:#8499B1;}/* Header/Blog Title */.header 
+
+{ padding: 30px; text-align: center; background: #DBB68F;}
+
+.header h1 {font-size: 75px;}/* Style the top navigation bar */.topnav {overflow: hidden; background-color:#443850;}
+
+/* Style the topnav links */.topnav a {float: left; display: block; color:#BB7E5D; text-align: center; padding: 15px 20px;
+
+  text-decoration: none;}/* Change color on hover */.topnav a:hover {background-color:#BB7E5D; color: rgb(11, 10, 10);}
+
+/* Create two unequal columns that floats next to each other *//* Left column */.leftcolumn 
+
+{float: .left; width:75%;} 
+{float: .right; width:50%;} 
+
+/* Right column */.rightcolumn {float: left; width:25%; background-color:#8499B1;padding-left: 20px;}
+
+/* Fake image */.fakeimg {background-color:#BB7E5D; width:100%; height:55%; padding: 20px;}
+
+/* Add a card effect for articles */.card {background-color: #C1EEFF; padding: 20px; margin-top: 20px;}
+
+/* Clear floats after the columns */.row:after {content:""; display: table; clear: both;}
+
+/* Footer */.footer {padding: 20px; text-align: center; background:#443850; margin-top: 20px; font-size: 50px;}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and(max-width: 800px)
+
+{.leftcolumn,.rightcolumn {   width:100%;}}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+
+@media screen and(max-width: 400px)
+
+{.topnav a {float: none;width:100%;}}
+</style></head>
+
+<body><div class="header"><h1>My Personal Portfolio</h1><p>Farinas, Edrian Q.</p></div>
+
+    <div class="topnav"><a href="#">About Me</a><a href="#">My Portfolio</a><a href="#">Contact Me</a><a href="#" style="float:right">Language: EN</a></div>
+
+    <div class="row"><div class="leftcolumn"><div class="card"><h2>About Me</h2><h5>The Journey of my Profession, November 29, 2022</h5>
+
+    <div class="fakeimg" style="height:200px;"><img src="AutumnDog.jpg" max width=100%; max height="100%" padding: 20px;/></div><p> Fun fact:</p><p>Creating this webpage is provided with a guide, and is encouraged to be edited by us-personally.</p></div>
+
+    <div class="card"><h2>My Portfolio</h2><h5>Notable Works, November 29 2022</h5><div class="fakeimg" style="height:200px;">Image</div><p>The designs are created with the tool: Figma</p><p>On a note: These are designs are inspired from deadlines and interests.</p></div>
+
+    </div><div class="rightcolumn"><div class="card"><h2>Contact Me</h2><div class="fakeimg" style="height:100px;">Image</div><p>Email: 12345@gmail.com</p></div>
+    
+    <div class="card"><h3>Popular Post</h3><div class="fakeimg"><p>Image</p></div><div class="fakeimg"><p>Image</p></div><div class="fakeimg"><p>Image</p></div></div>
+
+    <div class="card"><h3>Follow Me!</h3><p>View this:<a href="youtube.com/watch?v=dQw4w9WgXcQ" >link text</a></p></div></div></div>
+    
+    <div class="footer"><h2>Credits to: HackAdemy for the sample HTML code</h2></div>
+
+</body>
+</style>
+</html>
+
